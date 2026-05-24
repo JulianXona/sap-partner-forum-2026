@@ -1,0 +1,2278 @@
+---
+import Layout from '../layouts/Layout.astro';
+---
+
+<Layout>
+  <!-- ========================================
+       CHAPTER 00 — HERO
+       ======================================== -->
+  <section class="section hero bg-noise" data-chapter="prólogo" data-chapter-num="00">
+    <img src="/img/image4.webp" alt="" class="bg-cover hero-bg" data-scale-in />
+    <div class="hero-overlay"></div>
+
+    <!-- SAP Signature parallelogram stack — top right corner -->
+    <svg class="hero-geo" viewBox="0 0 1440 900" preserveAspectRatio="xMidYMid slice" aria-hidden="true">
+      <!-- Parallelogram stack: outermost → innermost, dark → bright -->
+      <polygon points="820,0 1440,0 1440,900 620,900" fill="#002A86" opacity="0.55"/>
+      <polygon points="920,0 1440,0 1440,900 730,900" fill="#0050C8" opacity="0.45"/>
+      <polygon points="1040,0 1440,0 1440,900 860,900" fill="#0070F2" opacity="0.35"/>
+      <polygon points="1150,0 1440,0 1440,900 990,900" fill="#1B90FF" opacity="0.25"/>
+      <polygon points="1270,0 1440,0 1440,900 1120,900" fill="#36A0FF" opacity="0.15"/>
+      <!-- Thin white diagonal signature line -->
+      <line x1="820" y1="0" x2="620" y2="900" stroke="white" stroke-width="0.8" opacity="0.25"/>
+      <!-- Magenta accent line -->
+      <line x1="920" y1="0" x2="730" y2="900" stroke="#E8508A" stroke-width="0.5" opacity="0.2"/>
+    </svg>
+
+    <div class="content container" style="position:relative; z-index:3;">
+      <div class="hero-meta reveal">
+        <span class="eyebrow">SAP Partner Forum · Latin America 2026</span>
+      </div>
+
+      <h1 class="hero-title">
+        El Gran<br/><em>Blend</em><br/>de Latinoamérica
+      </h1>
+
+      <div class="hero-footer">
+        <div class="reveal" data-delay="0.4">
+          <p class="lede" style="max-width: 38ch;">
+            Mendoza · 25 al 28 de Agosto, 2026.<br/>
+            Donde el sol, la tierra y la tecnología propician nuestro mejor blend de ideas.
+          </p>
+        </div>
+        <div class="hero-scroll reveal" data-delay="0.6">
+          <span>Scroll para comenzar la cosecha</span>
+          <div class="scroll-arrow"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================
+       CHAPTER 01 — THE BLEND
+       ======================================== -->
+  <section class="section concept" data-chapter="el blend" data-chapter-num="01" data-pin>
+    <div class="layer" data-stage>
+      <div class="container-narrow" style="text-align:center;">
+        <span class="eyebrow">01 · El Gran Blend</span>
+        <h2 class="display-l" style="margin-top: 2rem;" data-split>
+          En Latinoamérica, los negocios se construyen desde las relaciones humanas.
+        </h2>
+      </div>
+    </div>
+
+    <div class="layer" data-stage>
+      <div class="container-narrow">
+        <p class="lede" style="font-size: clamp(1.3rem, 2vw, 1.85rem); text-align:center; margin: 0 auto;">
+          Nuestro ecosistema no es uniforme. Es <em class="italic-serif" style="color:var(--wine-gold);">rico, diverso y complejo.</em>
+        </p>
+      </div>
+    </div>
+
+    <div class="layer" data-stage>
+      <div class="container-narrow" style="text-align:center;">
+        <p class="lede" style="font-size: clamp(1.4rem, 2.2vw, 2rem); margin: 0 auto;">
+          Somos como las distintas cepas que dan vida a un vino inolvidable.<br/><br/>
+          <em class="italic-serif" style="color:var(--wine-gold);">Cada país aporta una uva</em><br/>
+          con notas, texturas y aromas que solo su tierra de origen puede dar.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================
+       CHAPTER 02 — THE WINEMAKER (Enólogo)
+       ======================================== -->
+  <section class="section enologo" data-chapter="el enólogo" data-chapter-num="02">
+    <img src="/img/image6.webp" alt="" class="bg-cover" data-scale-in style="opacity: 0.45;" />
+    <div class="scrim"></div>
+
+    <div class="content container grid-2">
+      <div>
+        <span class="eyebrow reveal">02 · El Enólogo</span>
+        <h2 class="display-l reveal" style="margin-top: 1.5rem;">
+          El enólogo de la tecnología.
+        </h2>
+      </div>
+      <div>
+        <p class="lede reveal" style="margin-bottom: 1.5rem;">
+          Separadas, nuestras cepas son extraordinarias. Pero el verdadero milagro de los
+          negocios ocurre cuando se encuentran.
+        </p>
+        <p class="lede reveal" data-delay="0.2">
+          Aquí es donde el <em class="italic-serif" style="color:var(--wine-gold);">SAP Partner Forum</em>
+          toma su rol fundamental: el del enólogo. Nuestra misión no es cambiar la naturaleza
+          de la uva, sino entenderla y brindarle el entorno, la tecnología y la paciencia para
+          que alcance su máxima expresión.
+        </p>
+        <p class="lede reveal" data-delay="0.4" style="margin-top: 1.5rem; color:var(--wine-gold);">
+          Así guiamos a nuestro ecosistema para lograr el Gran Ensamblaje.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================
+       CHAPTER 03 — MENDOZA TERROIR
+       ======================================== -->
+  <section class="section terroir" data-chapter="mendoza" data-chapter-num="03">
+    <img src="/img/image68.webp" alt="Cordillera y viñedos de Mendoza" class="bg-cover" data-scale-in />
+    <div class="scrim"></div>
+
+    <div class="content container" style="display: grid; grid-template-rows: 1fr auto; min-height: 80vh;">
+      <div style="align-self: start;">
+        <span class="eyebrow reveal">03 · Terruño de Evolución</span>
+      </div>
+      <div style="max-width: 50ch;">
+        <h2 class="display-xl reveal" style="font-style: italic; font-weight: 200;">
+          Mendoza.
+        </h2>
+        <p class="lede reveal" data-delay="0.2" style="margin-top: 2rem;">
+          A los pies de los Andes y bajo su sol implacable, encontramos el suelo fértil para
+          madurar nuestra confianza y la inspiración natural para potenciar la innovación.
+        </p>
+        <p class="lede reveal" data-delay="0.4" style="margin-top: 1rem; color:var(--wine-gold); font-style: italic;">
+          Es en este terruño donde nuestro éxito colectivo se cultiva y cobra vida.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================
+       CHAPTER 04 — STATEMENT
+       ======================================== -->
+  <section class="section statement bg-sparkles" data-chapter="el escenario" data-chapter-num="04">
+    <!-- SAP parallelogram stack — left side espejado -->
+    <svg class="statement-geo" viewBox="0 0 1440 900" preserveAspectRatio="xMidYMid slice" aria-hidden="true">
+      <!-- Left stack -->
+      <polygon points="0,0 620,0 420,900 0,900" fill="#002A86" opacity="0.5"/>
+      <polygon points="0,0 510,0 310,900 0,900" fill="#0050C8" opacity="0.4"/>
+      <polygon points="0,0 390,0 200,900 0,900" fill="#0070F2" opacity="0.3"/>
+      <polygon points="0,0 270,0 90,900 0,900" fill="#7858FF" opacity="0.2"/>
+      <line x1="620" y1="0" x2="420" y2="900" stroke="white" stroke-width="0.8" opacity="0.2"/>
+      <!-- Right stack — violet variant -->
+      <polygon points="1440,0 1440,900 1020,900 1220,0" fill="#002A86" opacity="0.5"/>
+      <polygon points="1440,0 1440,900 1130,900 1330,0" fill="#5D36FF" opacity="0.35"/>
+      <polygon points="1440,0 1440,900 1240,900 1380,0" fill="#7858FF" opacity="0.2"/>
+      <line x1="1220" y1="0" x2="1020" y2="900" stroke="white" stroke-width="0.8" opacity="0.2"/>
+    </svg>
+    <div class="content container-narrow" style="text-align:center;">
+      <span class="eyebrow reveal">SAP Partner Forum Latin America · Mendoza 2026</span>
+      <h2 class="display-xl reveal" style="margin-top: 2.5rem; line-height: 0.95;" data-delay="0.1">
+        El escenario perfecto donde la <em class="italic-serif" style="background: linear-gradient(135deg, var(--wine-gold) 0%, var(--sap-magenta) 60%, #C040FF 100%); -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent;">tecnología impulsa el blend</em>
+        de nuestro ecosistema.
+      </h2>
+    </div>
+  </section>
+
+  <!-- ========================================
+       CHAPTER 05 — CONVOCATORIA
+       ======================================== -->
+  <section class="section convocatoria-intro" data-chapter="convocatoria" data-chapter-num="05">
+    <div class="content container">
+      <span class="eyebrow reveal">05 · Convocatoria</span>
+      <h2 class="display-l reveal" style="margin-top: 1.5rem; max-width: 18ch;" data-delay="0.1">
+        Convocar a las cepas más selectas para lograr el blend perfecto.
+      </h2>
+    </div>
+  </section>
+
+  <!-- TEASER VIDEO -->
+  <section class="section teaser-section">
+    <div class="content container grid-2" style="align-items: stretch;">
+      <div>
+        <span class="chip reveal">Teaser Video Invitación</span>
+        <h3 class="display-m reveal" style="margin-top: 1.5rem;" data-delay="0.1">
+          Donde el sol, la tierra y la tecnología propician nuestro mejor blend de ideas.
+        </h3>
+        <p class="lede reveal" data-delay="0.3" style="margin-top: 1.5rem;">
+          Un video teaser sumerge a los partners en la majestuosidad de nuestro terruño
+          mendocino y adelanta la exclusividad de la experiencia. Su objetivo es claro:
+          <em class="italic-serif">SAP ha preparado el escenario perfecto</em> y la
+          tecnología de vanguardia para potenciar la unión que nos hace distintos ante el
+          resto del mundo.
+        </p>
+      </div>
+      <div class="video-card reveal" data-delay="0.2">
+        <div class="video-poster">
+          <img src="/img/image3.webp" alt="" />
+          <div class="play-btn"><svg viewBox="0 0 32 32"><path d="M10 6l16 10-16 10z" fill="currentColor"/></svg></div>
+          <div class="video-meta">
+            <span>0:90 · Teaser</span>
+            <strong>SAP Partner Forum · Mendoza 2026</strong>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- MICROSITIO + CONCIERGE -->
+  <section class="section feature-pair">
+    <div class="content container grid-2">
+      <div class="feature-card reveal">
+        <span class="chip">Micrositio</span>
+        <h3 class="display-s" style="margin-top: 1rem;">Una plataforma para todo.</h3>
+        <p class="lede" style="margin-top: 1rem;">
+          Los invitados se registran, acceden a información, pagan sus entradas, cargan
+          vuelos, coordinan traslados, solicitan requerimientos especiales y agendan sesiones
+          1:1 con líderes de SAP y sponsors.
+        </p>
+        <ul class="feature-list">
+          <li>Registro y pago seguro</li>
+          <li>Gestión de vuelos y traslados</li>
+          <li>Agenda de reuniones 1:1</li>
+          <li>Concierge vía chatbot + WhatsApp</li>
+        </ul>
+      </div>
+      <div class="feature-card reveal" data-delay="0.15">
+        <span class="chip">Concierge Personalizado</span>
+        <h3 class="display-s" style="margin-top: 1rem;">Acompañamiento sin fricciones.</h3>
+        <p class="lede" style="margin-top: 1rem;">
+          Nuestro diferencial clave comienza tras la conversión: desde el momento exacto de la
+          compra, un servicio de Concierge exclusivo acompaña a cada invitado, garantizando
+          una atención personalizada en cada etapa de su viaje.
+        </p>
+        <div class="kpi-row">
+          <div><span class="big">24/7</span><span>Disponibilidad</span></div>
+          <div><span class="big">1:1</span><span>Atención personal</span></div>
+          <div><span class="big">∞</span><span>Solicitudes</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FLOW DE COMUNICACIÓN -->
+  <section class="section flow-section">
+    <div class="content container">
+      <span class="eyebrow reveal">Flow de Comunicación</span>
+      <h2 class="display-m reveal" style="margin-top: 1rem;" data-delay="0.1">
+        Una conversación que crece como una cosecha.
+      </h2>
+      <p class="lede reveal" data-delay="0.2" style="margin-top: 1rem; max-width: 60ch;">
+        Diez puntos de contacto cuidadosamente orquestados entre mayo y agosto, cada uno con
+        un propósito y un tono propios.
+      </p>
+
+      <div class="timeline-grid">
+        <div class="tl-month reveal"><span>MAY</span></div>
+        <div class="tl-step reveal"><span class="tl-date">26 May</span><strong>Save The Date</strong><p>Anuncio oficial</p></div>
+
+        <div class="tl-month reveal" data-delay="0.1"><span>JUN</span></div>
+        <div class="tl-step reveal" data-delay="0.1"><span class="tl-date">3 Jun</span><strong>Invitación</strong><p>Plataforma online con highlights</p></div>
+        <div class="tl-step reveal" data-delay="0.15"><span class="tl-date">26 Jun</span><strong>Push Toque 1</strong><p>Recordatorio personalizado</p></div>
+
+        <div class="tl-month reveal" data-delay="0.2"><span>JUL</span></div>
+        <div class="tl-step reveal" data-delay="0.2"><span class="tl-date">14 Jul</span><strong>Push Toque 2</strong><p>Highlights · info · agenda</p></div>
+
+        <div class="tl-month reveal" data-delay="0.3"><span>AGO</span></div>
+        <div class="tl-step reveal" data-delay="0.3"><span class="tl-date">3 Ago</span><strong>Push Toque 3</strong><p>Todavía no te registraste · link to register</p></div>
+        <div class="tl-step reveal" data-delay="0.35"><span class="tl-date">10 Ago</span><strong>Last Chance</strong><p>Cierre de registros</p></div>
+        <div class="tl-step reveal" data-delay="0.4"><span class="tl-date">18 Ago</span><strong>Info Agenda</strong><p>Final agenda · speakers</p></div>
+        <div class="tl-step reveal" data-delay="0.45"><span class="tl-date">24 Ago</span><strong>Pack your bags</strong><p>Logística final</p></div>
+        <div class="tl-step reveal" data-delay="0.5"><span class="tl-date">28 Ago</span><strong>See you tomorrow</strong><p>Bienvenida inminente</p></div>
+        <div class="tl-step reveal closing" data-delay="0.55"><span class="tl-date">29 Ago</span><strong>Thank You</strong><p>Cosecha compartida</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================
+       CHAPTER 06 — UBICACIÓN
+       ======================================== -->
+  <section class="section location-intro" data-chapter="ubicación" data-chapter-num="06">
+    <div class="content container">
+      <span class="eyebrow reveal">06 · Ubicación</span>
+      <h2 class="display-l reveal" style="margin-top: 1.5rem;" data-delay="0.1">
+        Hospedaje y Centros de Convenciones.
+      </h2>
+      <p class="lede reveal" data-delay="0.2" style="margin-top: 1rem; max-width: 60ch;">
+        Dos opciones cuidadosamente diseñadas: la inmersión total en el Valle de Luján de
+        Cuyo, o la energía de Mendoza Ciudad con sus 5 estrellas históricos.
+      </p>
+    </div>
+    <div class="map-wrap reveal" data-delay="0.3">
+      <img src="/img/image20.webp" alt="Mapa de ubicaciones en Mendoza" />
+    </div>
+  </section>
+
+  <!-- ========================================
+       CHAPTER 07 — ARRIVALS HOSPITALITY
+       ======================================== -->
+  <section class="section arrivals-intro" data-chapter="bienvenida" data-chapter-num="07">
+    <img src="/img/image24.webp" alt="" class="bg-cover" data-scale-in style="opacity:0.4;" />
+    <div class="scrim"></div>
+
+    <div class="content container">
+      <span class="eyebrow reveal">07 · Arrivals Hospitality</span>
+      <h2 class="display-l reveal" style="margin-top: 1.5rem; max-width: 22ch;" data-delay="0.1">
+        El primer contacto con el terruño.
+      </h2>
+      <p class="lede reveal" data-delay="0.3" style="margin-top: 1.5rem; max-width: 55ch;">
+        Recibiendo a las cepas que darán vida a nuestro Gran Blend. Desde el aeropuerto,
+        cada gesto está pensado para anclar al partner en el espíritu de Partner Valley.
+      </p>
+    </div>
+  </section>
+
+  <!-- ARRIVAL STEPS — horizontal scroll -->
+  <section class="section h-scroll-section" data-hscroll>
+    <div class="h-scroll-track" data-hscroll-track>
+
+      <div class="h-scroll-panel" data-hscroll-panel>
+        <div class="arrival-card">
+          <div class="arrival-media"><img src="/img/image24.webp" alt="" /></div>
+          <div class="arrival-body">
+            <span class="chip">Paso 1 · Aeropuerto</span>
+            <h3 class="display-s">Bienvenida performática</h3>
+            <p class="lede">
+              Un actor caracterizado como productor vitivinícola recibe a cada partner
+              para darle la bienvenida oficial a Partner Valley y entregar el
+              <em class="italic-serif">Welcome Refreshment Kit</em>:
+            </p>
+            <ul class="kit-list">
+              <li>Agua mineral</li>
+              <li>Snack saludable</li>
+              <li>Toallita refrescante</li>
+              <li>Mapa / booklet turístico</li>
+              <li>Tarjetón de bienvenida premium</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="h-scroll-panel" data-hscroll-panel>
+        <div class="arrival-card">
+          <div class="arrival-media"><img src="/img/image17.webp" alt="" /></div>
+          <div class="arrival-body">
+            <span class="chip">Paso 2 · Traslados</span>
+            <h3 class="display-s">Vehículos privados.</h3>
+            <p class="lede">
+              Cada invitado es acompañado por nuestro equipo de hospitalidad y trasladado
+              a su hotel en vehículos privados. Movilidad a medida, máxima puntualidad y
+              confort para que el trayecto esté a la altura de la experiencia.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="h-scroll-panel" data-hscroll-panel>
+        <div class="arrival-card">
+          <div class="arrival-media"><img src="/img/image31.webp" alt="" /></div>
+          <div class="arrival-body">
+            <span class="chip">Paso 3 · Registro</span>
+            <h3 class="display-s">Lanyard etiqueta de vino.</h3>
+            <p class="lede">
+              Durante el registro, cada invitado recibe un lanyard inspirado en una etiqueta
+              de vino, integrado a la narrativa visual de Partner Valley. Incluye un QR que
+              da acceso a un booklet turístico de Mendoza.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="h-scroll-panel" data-hscroll-panel>
+        <div class="arrival-card">
+          <div class="arrival-media"><img src="/img/image29.webp" alt="" /></div>
+          <div class="arrival-body">
+            <span class="chip">Paso 4 · IA Partner's Blend</span>
+            <h3 class="display-s">Tu perfil, en lenguaje de vino.</h3>
+            <p class="lede">
+              Una estación con IA pregunta sobre estilo de liderazgo, industria y visión.
+              Devuelve un perfil único:
+            </p>
+            <ul class="kit-list">
+              <li>Cepa dominante</li>
+              <li>Nota de innovación</li>
+              <li>Nivel de maduración</li>
+              <li>Maridaje ideal en el ecosistema</li>
+              <li>Oportunidad recomendada</li>
+            </ul>
+            <p class="caption" style="margin-top:1rem; color: var(--wine-gold); font-style: italic;">
+              Ej: "Malbec Visionario"
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="h-scroll-panel" data-hscroll-panel>
+        <div class="arrival-card">
+          <div class="arrival-media"><img src="/img/image16.webp" alt="" /></div>
+          <div class="arrival-body">
+            <span class="chip">Paso 5 · Check-in & Help Desk</span>
+            <h3 class="display-s">Asistencia permanente.</h3>
+            <p class="lede">
+              Concierge presente desde la llegada al hotel: check-in, acreditación,
+              reuniones 1:1, traslados, atención multilingüe. Punto físico + WhatsApp + QR.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="h-scroll-panel" data-hscroll-panel>
+        <div class="arrival-card">
+          <div class="arrival-media"><img src="/img/image27.webp" alt="" /></div>
+          <div class="arrival-body">
+            <span class="chip">Paso 6 · Welcome Kit</span>
+            <h3 class="display-s">Tres piezas que cuentan una historia.</h3>
+            <ul class="kit-detail">
+              <li>
+                <strong>Tarjetón Bienvenida</strong>
+                <p>Alto gramaje, primera pieza premium de Partner Valley.</p>
+              </li>
+              <li>
+                <strong>Símbolo del Terruño</strong>
+                <p>Frasco de cristal lacrado con tierra auténtica de Luján de Cuyo. Primera pieza del juego coleccionable.</p>
+              </li>
+              <li>
+                <strong>Delantal del Terruño</strong>
+                <p>Gabardina gruesa con correas de cuero, bordado con SAP Partner Forum 2026.</p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ========================================
+       CHAPTER 08 — THE PARTNER VALLEY (Hospedaje)
+       ======================================== -->
+  <section class="section valley-intro" data-chapter="partner valley" data-chapter-num="08">
+    <div class="content container-narrow" style="text-align:center;">
+      <span class="eyebrow reveal">08 · The Partner Valley</span>
+      <h2 class="display-l reveal" style="margin-top: 1.5rem;" data-delay="0.1" data-split>
+        Dos formas de habitar el valle.
+      </h2>
+    </div>
+  </section>
+
+  <section class="section options-section">
+    <div class="content container grid-2" style="gap: 3rem;">
+      <article class="option-card option-a reveal">
+        <div class="option-img"><img src="/img/image14.webp" alt="Luján de Cuyo" /></div>
+        <div class="option-body">
+          <span class="chip">Opción A</span>
+          <h3 class="display-s" style="margin-top: 0.75rem;">Luján de Cuyo</h3>
+          <p class="lede" style="margin-top: 1rem;">
+            Ecosistema 100% inmersivo: una red exclusiva de <strong>20 hoteles boutique y de
+            montaña</strong>, ubicados estratégicamente alrededor de Finca Altos de Malbec,
+            nuestro Centro de Convenciones principal.
+          </p>
+          <p style="margin-top:1rem;">
+            Privacidad, confort de alto nivel y descanso reparador frente a la
+            <em class="italic-serif">Cordillera de los Andes</em>.
+          </p>
+        </div>
+      </article>
+
+      <article class="option-card option-b reveal" data-delay="0.15">
+        <div class="option-img"><img src="/img/image15.webp" alt="Mendoza Ciudad" /></div>
+        <div class="option-body">
+          <span class="chip">Opción B</span>
+          <h3 class="display-s" style="margin-top: 0.75rem;">Mendoza Ciudad</h3>
+          <p class="lede" style="margin-top: 1rem;">
+            Concentración en el centro histórico, en los dos hoteles cinco estrellas más
+            prestigiosos: <strong>Diplomatic Hotel</strong> y <strong>Park Hyatt Mendoza</strong>.
+          </p>
+          <p style="margin-top:1rem;">
+            Centro de Convenciones: <em class="italic-serif">Espacio Arizu</em> o
+            <em class="italic-serif">Finca Decero</em>, a 20 minutos de los hoteles.
+          </p>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <!-- ========================================
+       CHAPTER 09 — CENTRO DE CONVENCIONES
+       ======================================== -->
+  <section class="section venue-intro" data-chapter="el venue" data-chapter-num="09">
+    <div class="content container">
+      <span class="eyebrow reveal">09 · El Corazón del Terruño</span>
+      <h2 class="display-l reveal" style="margin-top: 1.5rem;" data-delay="0.1">
+        Centro de Convenciones.
+      </h2>
+
+      <div class="venue-grid">
+        <div class="venue-side reveal">
+          <span class="chip" style="background: rgba(180, 84, 52, 0.15); border-color: var(--wine-rust); color: var(--wine-rust);">Opción A · Luján de Cuyo</span>
+          <ul>
+            <li><span>Venue principal</span><strong>Decero — Lomas de Malbec</strong></li>
+            <li><span>Welcome Cocktail</span><strong>Finca</strong></li>
+            <li><span>Cena</span><strong>Casa Vigil</strong></li>
+            <li><span>Closing Cocktail</span><strong>Finca</strong></li>
+          </ul>
+        </div>
+        <div class="venue-side reveal" data-delay="0.15">
+          <span class="chip" style="background: rgba(139, 95, 191, 0.15); border-color: var(--sap-violet); color: var(--sap-violet);">Opción B · Mendoza Ciudad</span>
+          <ul>
+            <li><span>Venue principal</span><strong>Decero — Arizu</strong></li>
+            <li><span>Welcome Cocktail</span><strong>Hotel Diplomatic</strong></li>
+            <li><span>Cena</span><strong>Casa Vigil</strong></li>
+            <li><span>Closing Cocktail</span><strong>Diplomatic / Hyatt</strong></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FINCA DECERO — featured -->
+  <section class="section finca-decero" data-chapter="finca decero" data-chapter-num="10">
+    <img src="/img/image10.webp" alt="Finca Decero" class="bg-cover" data-scale-in />
+    <div class="scrim"></div>
+
+    <div class="content container grid-2" style="gap: 4rem; align-items: end;">
+      <div>
+        <span class="chip reveal">Venue Sugerido (A)</span>
+        <h2 class="display-xl reveal" style="margin-top: 1rem; line-height: 0.95;" data-delay="0.1">
+          Finca <em class="italic-serif" style="color: var(--wine-gold);">Decero.</em>
+        </h2>
+      </div>
+      <div>
+        <p class="lede reveal" data-delay="0.2">
+          Por su ubicación, su arquitectura y su conexión directa con uno de los terroirs más
+          reconocidos de Mendoza, Finca Decero se presenta como una de las locaciones más
+          espectaculares para vivir el Partner Valley.
+        </p>
+        <p class="lede reveal" data-delay="0.35" style="margin-top: 1rem; color: var(--wine-gold); font-style: italic;">
+          Sede principal para ambas alternativas de hospedaje.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section decero-gallery">
+    <div class="content container">
+      <div class="gallery-grid">
+        <figure class="reveal"><img src="/img/image12.webp" alt="" /></figure>
+        <figure class="reveal" data-delay="0.1"><img src="/img/image13.webp" alt="" /></figure>
+        <figure class="reveal" data-delay="0.2"><img src="/img/image11.webp" alt="" /></figure>
+        <figure class="reveal" data-delay="0.05"><img src="/img/image19.webp" alt="" /></figure>
+        <figure class="reveal" data-delay="0.15"><img src="/img/image18.webp" alt="" /></figure>
+        <figure class="reveal" data-delay="0.25"><img src="/img/image23.webp" alt="" /></figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- LOMAS DEL MALBEC -->
+  <section class="section lomas-malbec">
+    <div class="content container grid-2">
+      <div>
+        <span class="chip reveal">Venue Sugerido (B)</span>
+        <h2 class="display-m reveal" style="margin-top: 1rem;" data-delay="0.1">
+          Lomas del Malbec.
+        </h2>
+        <p class="lede reveal" data-delay="0.2" style="margin-top: 1rem;">
+          Tres diferenciales únicos que potenciarán nuestro encuentro:
+        </p>
+        <div class="diff-list">
+          <div class="diff reveal" data-delay="0.3">
+            <span class="diff-num">01</span>
+            <div>
+              <strong>Inmersión y Biodiversidad</strong>
+              <p>220 hectáreas de viñedos orgánicos y flora nativa.</p>
+            </div>
+          </div>
+          <div class="diff reveal" data-delay="0.4">
+            <span class="diff-num">02</span>
+            <div>
+              <strong>Identidad Sostenible</strong>
+              <p>Complejo y bodega con certificación orgánica, alineado a los valores de SAP.</p>
+            </div>
+          </div>
+          <div class="diff reveal" data-delay="0.5">
+            <span class="diff-num">03</span>
+            <div>
+              <strong>Majestuosidad Corporativa</strong>
+              <p>Centro de Convenciones de 4.000 m² totalmente equipado.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="reveal" data-delay="0.2">
+        <img src="/img/image21.webp" alt="Lomas del Malbec" style="aspect-ratio: 3/4; height: auto; object-fit: cover; width: 100%;" />
+      </div>
+    </div>
+  </section>
+
+  <!-- ESPACIO ARIZU (alt) -->
+  <section class="section arizu">
+    <div class="content container grid-2">
+      <div class="reveal">
+        <div class="gallery-grid arizu-grid">
+          <img src="/img/image22.webp" alt="" />
+          <img src="/img/image26.webp" alt="" />
+          <img src="/img/image25.webp" alt="" />
+          <img src="/img/image30.webp" alt="" />
+        </div>
+      </div>
+      <div>
+        <span class="chip reveal">Alternativa para Mendoza Ciudad</span>
+        <h2 class="display-m reveal" style="margin-top: 1rem;" data-delay="0.1">
+          Espacio Arizu.
+        </h2>
+        <p class="lede reveal" data-delay="0.2" style="margin-top: 1rem;">
+          Una antigua bodega recuperada que alberga el archivo vitivinícola más completo de
+          la Argentina. Un monumento histórico que rinde homenaje a la industria que
+          posicionó a Mendoza como capital mundial del vino.
+        </p>
+        <ul class="bullet-elegant reveal" data-delay="0.35">
+          <li><strong>Legado histórico</strong> · arquitectura del siglo XX fusionada con identidad mendocina.</li>
+          <li><strong>Valor documental</strong> · memoria viva de la cultura del trabajo y la innovación.</li>
+          <li><strong>Experiencia cultural</strong> · entorno industrial recuperado, auténtico y lleno de carácter.</li>
+        </ul>
+        <p class="caption reveal" data-delay="0.45" style="margin-top: 1rem; color: var(--wine-gold);">
+          A 20 minutos de los hoteles.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- BRANDING & PHOTO OP -->
+  <section class="section branding">
+    <div class="content container grid-2">
+      <div>
+        <span class="chip reveal">Branding</span>
+        <h2 class="display-m reveal" style="margin-top:1rem;" data-delay="0.1">
+          Photo Opportunity.
+        </h2>
+        <p class="lede reveal" data-delay="0.2" style="margin-top: 1rem;">
+          Un logo corpóreo de SAP realizado en <em class="italic-serif">corcho</em>,
+          intervenido en color SAP. Una pieza escultórica de fuerte impacto visual: las
+          líneas del logo enmarcan los viñedos, la montaña y el entorno natural.
+          El propio territorio se vuelve parte de la imagen.
+        </p>
+        <p class="lede reveal" data-delay="0.35" style="margin-top: 1rem;">
+          Un back institucional con presencia de sponsors, diseñado como punto oficial para
+          fotos, entrevistas y generación de contenido.
+        </p>
+      </div>
+      <div class="reveal" data-delay="0.2">
+        <img src="/img/image33.webp" alt="" style="width:100%; aspect-ratio: 4/5; object-fit: cover;" />
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================
+       CHAPTER 11 — ALWAYS ON
+       ======================================== -->
+  <section class="section always-on" data-chapter="always on" data-chapter-num="11">
+    <div class="content container">
+      <span class="eyebrow reveal">11 · Always On</span>
+      <h2 class="display-l reveal" style="margin-top:1.5rem;" data-delay="0.1">
+        Maridaje de Experiencias.
+      </h2>
+      <p class="lede reveal" data-delay="0.2" style="margin-top:1rem; max-width: 60ch;">
+        Experiencias sensoriales diseñadas para que los partners disfruten y conecten sin
+        fricciones durante las pausas de la agenda.
+      </p>
+
+      <div class="grid-3" style="margin-top: 4rem;">
+        <div class="tile reveal">
+          <span class="tile-num">01</span>
+          <h4 class="display-s" style="font-size: 1.4rem;">Infusiones Andinas & Alta Chocolatería</h4>
+          <p style="margin-top: 0.75rem; color: var(--muted-strong);">
+            Tés e infusiones elaboradas con hierbas autóctonas de la Cordillera (como la
+            jarilla local), maridadas con alfajores argentinos de autor y chocolates de
+            vanguardia.
+          </p>
+        </div>
+        <div class="tile reveal" data-delay="0.1">
+          <span class="tile-num">02</span>
+          <h4 class="display-s" style="font-size: 1.4rem;">Cata de Olivas</h4>
+          <p style="margin-top: 0.75rem; color: var(--muted-strong);">
+            Estación exclusiva de cata de aceites de oliva extra virgen premium de la región.
+          </p>
+        </div>
+        <div class="tile reveal" data-delay="0.2">
+          <span class="tile-num">03</span>
+          <h4 class="display-s" style="font-size: 1.4rem;">Boutique de Quesos y Charcutería</h4>
+          <p style="margin-top: 0.75rem; color: var(--muted-strong);">
+            Mesa de fiambres artesanales y quesos de montaña afinados, curada por expertos
+            locales.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PARTNER TERROIR MAP -->
+  <section class="section terroir-map">
+    <div class="content container grid-2" style="align-items:center;">
+      <div>
+        <span class="chip reveal">Bienvenida al Terruño</span>
+        <h2 class="display-m reveal" style="margin-top:1rem;" data-delay="0.1">
+          The Partner Terroir Map.
+        </h2>
+        <p class="lede reveal" data-delay="0.2" style="margin-top: 1rem;">
+          Una gran instalación visual inspirada en un mapa de viñedos de Mendoza. Cada
+          partner recibe un pin imantado con su nombre y empresa. En el mapa, se ubica
+          según su industria, región o expertise.
+        </p>
+        <p class="lede reveal" data-delay="0.35" style="margin-top: 1rem; color: var(--wine-gold); font-style: italic;">
+          A medida que avanza el evento, el mapa se completa hasta convertirse en una
+          representación física del ecosistema SAP en Latinoamérica.
+        </p>
+      </div>
+      <div class="reveal" data-delay="0.2">
+        <img src="/img/image50.webp" alt="Partner Terroir Map" style="width:100%; aspect-ratio: 4/3; object-fit: cover;" />
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================
+       CHAPTER 12 — AGENDA
+       ======================================== -->
+  <section class="section agenda-intro" data-chapter="la agenda" data-chapter-num="12">
+    <div class="content container">
+      <span class="eyebrow reveal">12 · La Agenda</span>
+      <h2 class="display-l reveal" style="margin-top:1.5rem;" data-delay="0.1">
+        Agenda de Experiencias.
+      </h2>
+      <p class="lede reveal" data-delay="0.2" style="margin-top:1rem; max-width: 60ch;">
+        Cuatro días. Cuatro etapas de un blend que madura: <em class="italic-serif">Llegada,
+        Terruño, Cultivo, Cosecha.</em>
+      </p>
+      <div class="agenda-glance">
+        <div class="ag-day reveal">
+          <span class="ag-num">0</span>
+          <strong>Llegada</strong>
+          <p>Transfer al hotel · Welcome arrival experiences · Opening cocktail</p>
+        </div>
+        <div class="ag-day reveal" data-delay="0.1">
+          <span class="ag-num">1</span>
+          <strong>El Terruño</strong>
+          <p>Opening keynote · Lunch · Masterclasses · 1:1 Meetings · Cena en Casa Vigil</p>
+        </div>
+        <div class="ag-day reveal" data-delay="0.2">
+          <span class="ag-num">2</span>
+          <strong>El Cultivo</strong>
+          <p>Keynote · Lunch · Masterclasses · 1:1 Meetings · Closing experience + Dinner</p>
+        </div>
+        <div class="ag-day reveal" data-delay="0.3">
+          <span class="ag-num">3</span>
+          <strong>La Cosecha</strong>
+          <p>Checkout · Transfer al aeropuerto · Farewell gift</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- DAY 0 -->
+  <section class="section day day-0" data-chapter="día 0 · llegada" data-chapter-num="13">
+    <img src="/img/image46.webp" alt="" class="bg-cover" data-scale-in style="opacity: 0.45;" />
+    <div class="scrim"></div>
+
+    <div class="content container">
+      <span class="eyebrow reveal">Día 0</span>
+      <h2 class="display-xl reveal" style="margin-top: 1rem;" data-delay="0.1">
+        Welcome Experiences.
+      </h2>
+      <p class="lede reveal" data-delay="0.2" style="margin-top: 1.5rem; max-width: 60ch;">
+        Tiempo libre para comenzar a vivir Mendoza a propio ritmo, eligiendo entre actividades
+        a la carta. Primera aproximación al espíritu de Partner Valley.
+      </p>
+    </div>
+  </section>
+
+  <section class="section day-0-grid">
+    <div class="content container grid-2">
+      <article class="reveal">
+        <img src="/img/image35.webp" alt="Welcome Cocktail" />
+        <div class="day-card-body">
+          <span class="chip">Luján de Cuyo</span>
+          <h3 class="display-s">Welcome Cocktail.</h3>
+          <p>Al aire libre, luces cálidas, mesas campestres. El primer momento para brindar y empezar a descubrir el espíritu de Partner Valley.</p>
+        </div>
+      </article>
+      <article class="reveal" data-delay="0.15">
+        <img src="/img/image36.webp" alt="Sunset DJ" />
+        <div class="day-card-body">
+          <span class="chip">Sunset</span>
+          <h3 class="display-s">Sunset DJ Set.</h3>
+          <p>DJ en vivo, barras de vino y paisaje mendocino. La primera instancia de conexión para abrir conversaciones.</p>
+        </div>
+      </article>
+      <article class="reveal" data-delay="0.05">
+        <img src="/img/image42.webp" alt="Outfit Blend" />
+        <div class="day-card-body">
+          <span class="chip">Outfit Blend</span>
+          <h3 class="display-s">Sombreros y ponchos.</h3>
+          <p>Cada invitado recibe accesorios para integrarse al sunset. Identidad mendocina, color, y un momento fotográfico espontáneo.</p>
+        </div>
+      </article>
+      <article class="reveal" data-delay="0.2">
+        <img src="/img/image39.webp" alt="Hotel Diplomatic" />
+        <div class="day-card-body">
+          <span class="chip">Mendoza Ciudad</span>
+          <h3 class="display-s">Welcome en Diplomatic.</h3>
+          <p>Salón principal del Diplomatic: sofisticado y cálido. Networking, hospitalidad e identidad mendocina como las primeras notas de un gran vino.</p>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <!-- DAY 1 -->
+  <section class="section day day-1" data-chapter="día 1 · el terruño" data-chapter-num="14">
+    <img src="/img/image38.webp" alt="" class="bg-cover" data-scale-in style="opacity: 0.45;" />
+    <div class="scrim"></div>
+
+    <div class="content container">
+      <span class="eyebrow reveal">Día 1 · El Terruño</span>
+      <h2 class="display-xl reveal" style="margin-top: 1rem;" data-delay="0.1">
+        Opening Keynote.
+      </h2>
+      <p class="lede reveal" data-delay="0.2" style="margin-top: 1.5rem; max-width: 60ch;">
+        Inmersos en el lugar donde el vino se crea, madura y encuentra su identidad. La
+        apertura conecta estrategia, inspiración y propósito: el punto de partida donde
+        comienza a tomar forma toda gran cosecha.
+      </p>
+    </div>
+  </section>
+
+  <section class="section day-1-features">
+    <div class="content container grid-2">
+      <div class="feature-card reveal">
+        <span class="chip">Keynote Features</span>
+        <h3 class="display-s" style="margin-top: 1rem;">Graphic Recording + IA</h3>
+        <p style="margin-top: 1rem; color: var(--muted-strong);">
+          Graphic recording en vivo transforma los conceptos clave en piezas visuales en
+          tiempo real. Traducción con IA para conversaciones fluidas en un ecosistema regional
+          y diverso.
+        </p>
+      </div>
+      <div class="feature-card reveal" data-delay="0.15">
+        <span class="chip">Outdoor Lunch</span>
+        <h3 class="display-s" style="margin-top: 1rem;">Carpas frente al viñedo.</h3>
+        <p style="margin-top: 1rem; color: var(--muted-strong);">
+          Carpas anexas al restaurante de la finca, acondicionadas para acompañar la dinámica
+          del centro de convenciones. La gastronomía mendocina integrada al recorrido.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- MASTERCLASSES -->
+  <section class="section masterclasses">
+    <img src="/img/image47.webp" alt="" class="bg-cover" data-scale-in style="opacity: 0.3;" />
+    <div class="scrim"></div>
+
+    <div class="content container">
+      <span class="eyebrow reveal">Masterclasses</span>
+      <h2 class="display-l reveal" style="margin-top: 1rem;" data-delay="0.1">
+        El viaje de nuestro Gran Blend.
+      </h2>
+      <p class="lede reveal" data-delay="0.2" style="margin-top: 1rem; max-width: 65ch;">
+        Diez masterclasses exclusivas en dos jornadas inmersivas. Bajo la premisa de que los
+        grandes resultados requieren <em class="italic-serif">una base sólida, innovación para
+        crecer y la integración perfecta de elementos.</em>
+      </p>
+
+      <div class="grid-3" style="margin-top: 4rem;">
+        <div class="mc-card reveal">
+          <span class="mc-day">Día 1</span>
+          <h3 class="display-s">El Terruño</h3>
+          <p>Sesiones enfocadas en cimientos y estrategia. Salones interiores de la bodega.</p>
+        </div>
+        <div class="mc-card reveal" data-delay="0.1">
+          <span class="mc-day">Día 1+2</span>
+          <h3 class="display-s">El Cultivo</h3>
+          <p>Innovación que crece. Sentando las bases del conocimiento de SAP.</p>
+        </div>
+        <div class="mc-card reveal" data-delay="0.2">
+          <span class="mc-day">Día 2</span>
+          <h3 class="display-s">The Blend</h3>
+          <p>Integración y alianzas. Locaciones al aire libre frente a viñedos y montaña.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- GAMIFICATION -->
+  <section class="section gamification">
+    <div class="content container grid-2">
+      <div>
+        <span class="chip reveal">Inmersión y Gamificación</span>
+        <h2 class="display-m reveal" style="margin-top: 1rem;" data-delay="0.1">
+          Tokens, personajes y un premio aspiracional.
+        </h2>
+        <div class="game-steps">
+          <div class="game-step reveal" data-delay="0.2">
+            <span class="game-icon">◐</span>
+            <div>
+              <strong>Guiados por protagonistas</strong>
+              <p>Actores caracterizados (el enólogo, los cosechadores, el sommelier) reciben a los partners y relatan la narrativa del día antes de entrar a la sala.</p>
+            </div>
+          </div>
+          <div class="game-step reveal" data-delay="0.3">
+            <span class="game-icon">●</span>
+            <div>
+              <strong>Tokens Coleccionables</strong>
+              <p>En cada sesión, un pin físico inspirado en el ciclo del vino: tierra, vid, agua, sol, barrica, tiempo, etc.</p>
+            </div>
+          </div>
+          <div class="game-step reveal" data-delay="0.4">
+            <span class="game-icon">★</span>
+            <div>
+              <strong>El Premio Final</strong>
+              <p>Quienes reúnan los 10 tokens habrán "elaborado su propio blend". Botella exclusiva de edición limitada + sorteo de premio aspiracional.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="reveal" data-delay="0.2">
+        <img src="/img/image52.webp" alt="" style="width:100%; aspect-ratio: 3/4; object-fit: cover;" />
+      </div>
+    </div>
+  </section>
+
+  <!-- APP -->
+  <section class="section app-section">
+    <div class="content container">
+      <span class="eyebrow reveal">Master the Classes APP</span>
+      <h2 class="display-l reveal" style="margin-top: 1rem;" data-delay="0.1">
+        Paso del Terruño.
+      </h2>
+      <p class="lede reveal" data-delay="0.2" style="margin-top: 1rem; max-width: 65ch;">
+        Aplicación de acceso inmediato sin descargas, con IA y gamificación. Aporta valor en
+        dos direcciones:
+      </p>
+
+      <div class="grid-2" style="margin-top: 3rem; gap: 2rem;">
+        <div class="app-side reveal">
+          <span class="chip" style="border-color: var(--sap-magenta); color: var(--sap-magenta);">Para SAP</span>
+          <p style="margin-top: 1rem;">Seguimiento exacto y en tiempo real de asistencia, permanencia y engagement de los invitados en cada sesión.</p>
+        </div>
+        <div class="app-side reveal" data-delay="0.15">
+          <span class="chip" style="border-color: var(--wine-gold); color: var(--wine-gold);">Para el Partner</span>
+          <p style="margin-top: 1rem;">Resúmenes personalizados al instante, notas clave aplicables a su industria, y un chat inteligente — <em class="italic-serif">el Sommelier Digital</em>.</p>
+        </div>
+      </div>
+
+      <div class="avatar-evolution">
+        <span class="eyebrow reveal">Evolución Gamificada</span>
+        <div class="avatar-track">
+          <div class="avatar-stage reveal" data-delay="0.1"><span>◦</span><strong>Sembrador</strong></div>
+          <div class="avatar-line"></div>
+          <div class="avatar-stage reveal" data-delay="0.2"><span>◐</span><strong>Agrónomo</strong></div>
+          <div class="avatar-line"></div>
+          <div class="avatar-stage reveal" data-delay="0.3"><span>●</span><strong>Enólogo</strong></div>
+          <div class="avatar-line"></div>
+          <div class="avatar-stage reveal final" data-delay="0.4"><span>★</span><strong>Dueño de Bodega</strong></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 1:1 MEETINGS -->
+  <section class="section meetings">
+    <div class="content container grid-2">
+      <div class="reveal">
+        <img src="/img/image49.webp" alt="1:1 Meetings" style="width:100%; aspect-ratio: 4/3; object-fit: cover;" />
+      </div>
+      <div>
+        <span class="chip reveal">1 to 1 Meetings</span>
+        <h2 class="display-m reveal" style="margin-top: 1rem;" data-delay="0.1">
+          Networking Blend.
+        </h2>
+        <p class="lede reveal" data-delay="0.2" style="margin-top: 1rem;">
+          Para los invitados, el tiempo es el recurso más valioso. Las reuniones estratégicas
+          se desarrollan en la finca seleccionada: privacidad, confort ejecutivo y entorno de
+          alto nivel.
+        </p>
+        <p class="reveal" data-delay="0.35" style="margin-top: 1rem; color: var(--muted-strong);">
+          Mesas exclusivas en terrazas con vista al paisaje mendocino, gestionadas por un
+          equipo de concierge dedicado.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- DINNER CASA VIGIL -->
+  <section class="section dinner-vigil">
+    <img src="/img/image43.webp" alt="" class="bg-cover" data-scale-in style="opacity: 0.5;" />
+    <div class="scrim"></div>
+
+    <div class="content container">
+      <span class="chip reveal">Cena · Día 1</span>
+      <h2 class="display-xl reveal" style="margin-top: 1rem;" data-delay="0.1">
+        Casa Vigil.
+      </h2>
+      <p class="lede reveal" data-delay="0.2" style="margin-top: 2rem; max-width: 60ch;">
+        En Chachingo, Maipú. Restaurante, bodega, arte y cultura del vino conviven en una
+        experiencia profundamente mendocina, creada por <em class="italic-serif">Alejandro
+        Vigil</em>.
+      </p>
+      <p class="lede reveal" data-delay="0.35" style="margin-top: 1rem; max-width: 60ch; color: var(--wine-gold); font-style: italic;">
+        Inspirada en La Divina Comedia y reconocida por la Guía Michelin.
+      </p>
+    </div>
+  </section>
+
+  <!-- DAY 2 -->
+  <section class="section day day-2" data-chapter="día 2 · el cultivo" data-chapter-num="15">
+    <img src="/img/image44.webp" alt="" class="bg-cover" data-scale-in style="opacity:0.5;" />
+    <div class="scrim"></div>
+    <div class="content container">
+      <span class="eyebrow reveal">Día 2 · El Cultivo</span>
+      <h2 class="display-xl reveal" style="margin-top: 1rem;" data-delay="0.1">
+        Closing Dinner.
+      </h2>
+      <p class="lede reveal" data-delay="0.2" style="margin-top: 2rem; max-width: 60ch;">
+        Cena de gala en la finca seleccionada, en un entorno elegante y profundamente
+        conectado con el espíritu de Mendoza. El momento de celebrar el recorrido compartido.
+      </p>
+    </div>
+  </section>
+
+  <section class="section day-2-show">
+    <div class="content container">
+      <span class="eyebrow reveal">Cena de Cierre</span>
+      <h2 class="display-l reveal" style="margin-top: 1rem;" data-delay="0.1">
+        El show.
+      </h2>
+      <div class="grid-3" style="margin-top: 3rem;">
+        <div class="show-card reveal">
+          <img src="/img/image53.webp" alt="Malambo" />
+          <h3 class="display-s">Malambo</h3>
+          <p>Recepción con la fuerza del baile criollo.</p>
+        </div>
+        <div class="show-card reveal" data-delay="0.1">
+          <img src="/img/image54.webp" alt="Percusión con barricas" />
+          <h3 class="display-s">Percusión con Barricas</h3>
+          <p>El ritmo del terruño hecho instrumento.</p>
+        </div>
+        <div class="show-card reveal" data-delay="0.2">
+          <img src="/img/image58.webp" alt="Mapping & Danza" />
+          <h3 class="display-s">Mapping & Danza</h3>
+          <p>Tecnología y movimiento sobre la arquitectura de la finca.</p>
+        </div>
+      </div>
+      <p class="lede reveal" data-delay="0.4" style="margin-top: 3rem; text-align: center; max-width: 55ch; margin-left: auto; margin-right: auto;">
+        Premios, video recap, sorteos especiales y <em class="italic-serif">DJ set</em> para
+        que el blend de personas, ideas y alianzas termine de encontrar su mejor versión.
+      </p>
+    </div>
+  </section>
+
+  <!-- DAY 3 -->
+  <section class="section day day-3" data-chapter="día 3 · la cosecha" data-chapter-num="16">
+    <img src="/img/image57.webp" alt="" class="bg-cover" data-scale-in style="opacity:0.5;" />
+    <div class="scrim"></div>
+    <div class="content container">
+      <span class="eyebrow reveal">Día 3 · La Cosecha</span>
+      <h2 class="display-xl reveal" style="margin-top: 1rem;" data-delay="0.1">
+        Farewell.
+      </h2>
+      <p class="lede reveal" data-delay="0.2" style="margin-top: 2rem; max-width: 60ch;">
+        Desayuno en cada hotel, check-out, coordinación de salidas. Como cierre, cada invitado
+        recibe un vino especialmente seleccionado: una última pieza del recorrido Partner
+        Valley, resumen del valor del terruño y la fuerza de las alianzas.
+      </p>
+    </div>
+  </section>
+
+  <!-- ========================================
+       CHAPTER 17 — COMUNICACIÓN
+       ======================================== -->
+  <section class="section comm-intro" data-chapter="comunicación" data-chapter-num="17">
+    <div class="content container">
+      <span class="eyebrow reveal">17 · Comunicación</span>
+      <h2 class="display-l reveal" style="margin-top: 1.5rem;" data-delay="0.1">
+        Voz humana. Alcance orgánico.
+      </h2>
+
+      <div class="grid-3" style="margin-top: 4rem;">
+        <div class="tile reveal">
+          <span class="tile-num">A</span>
+          <h4 class="display-s" style="font-size: 1.4rem;">Comunicación Previa</h4>
+          <p style="margin-top: 0.75rem; color: var(--muted-strong);">
+            Toolkit personalizado (gráficos + textos) para cada referente, ejecutivo y speaker.
+            Storytelling adaptado para que cada líder invite a su red en LinkedIn con voz
+            propia.
+          </p>
+        </div>
+        <div class="tile reveal" data-delay="0.1">
+          <span class="tile-num">B</span>
+          <h4 class="display-s" style="font-size: 1.4rem;">Contenido Instantáneo</h4>
+          <p style="margin-top: 0.75rem; color: var(--muted-strong);">
+            Equipo dedicado a generar contenido snack en tiempo real: videos cortos, fotos
+            curadas, frases destacadas. Entregadas a los protagonistas justo después de cada
+            charla.
+          </p>
+        </div>
+        <div class="tile reveal" data-delay="0.2">
+          <span class="tile-num">C</span>
+          <h4 class="display-s" style="font-size: 1.4rem;">Información en Tiempo Real</h4>
+          <p style="margin-top: 0.75rem; color: var(--muted-strong);">
+            Grupo de WhatsApp exclusivo gestionado por producción. Solo admins publican.
+            Agenda del día, avisos de último momento, ubicaciones. Acceso por link o QR en
+            el check-in.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================
+       CHAPTER 18 — TICKETING
+       ======================================== -->
+  <section class="section ticketing-intro" data-chapter="ticketing" data-chapter-num="18">
+    <div class="content container">
+      <span class="eyebrow reveal">18 · Ticketing</span>
+      <h2 class="display-l reveal" style="margin-top: 1.5rem;" data-delay="0.1">
+        Signature Program.
+      </h2>
+      <p class="lede reveal" data-delay="0.2" style="margin-top: 1rem; max-width: 60ch;">
+        Múltiples monedas, descuentos por registro anticipado y tarifas diferenciadas para
+        grupos cerrados.
+      </p>
+    </div>
+  </section>
+
+  <section class="section pricing">
+    <div class="content container">
+      <div class="pricing-grid">
+        <article class="price-card reveal">
+          <span class="chip">Executive Single</span>
+          <div class="price">$5,000 <small>USD / pax</small></div>
+          <h3 class="display-s">Full Experience</h3>
+          <ul>
+            <li>Acceso al evento con concierge exclusivo</li>
+            <li>Todas las actividades de la agenda oficial</li>
+            <li>3 noches en habitación individual con vista</li>
+            <li>Comidas y bebidas incluidas</li>
+            <li>Traslados privados y servicios del hotel</li>
+          </ul>
+          <p class="footnote">100% cubierto con BDF · Limited Opportunities</p>
+        </article>
+
+        <article class="price-card featured reveal" data-delay="0.1">
+          <span class="chip" style="background: var(--wine-gold); color: var(--ink); border-color: var(--wine-gold);">Business Twin</span>
+          <div class="price">$8,500 <small>USD / 2 pax</small></div>
+          <h3 class="display-s">Full Experience</h3>
+          <ul>
+            <li>Acceso al evento con concierge exclusivo</li>
+            <li>Todas las actividades de la agenda oficial</li>
+            <li>3 noches en habitación doble Twin con vista</li>
+            <li>Comidas y bebidas incluidas</li>
+            <li>Traslados privados para ambos</li>
+          </ul>
+          <p class="footnote">100% cubierto con BDF · Limited</p>
+        </article>
+
+        <article class="price-card reveal" data-delay="0.2">
+          <span class="chip">Corporate 4+</span>
+          <div class="price">$4,500 <small>USD / pax</small></div>
+          <h3 class="display-s">Full Experience</h3>
+          <ul>
+            <li>4 o más invitados en doble Twin</li>
+            <li>Mejor tarifa por persona</li>
+            <li>Todos los servicios incluidos</li>
+            <li>Concierge dedicado al grupo</li>
+          </ul>
+          <p class="footnote">100% cubierto con BDF</p>
+        </article>
+
+        <article class="price-card reveal" data-delay="0.05">
+          <span class="chip">+ Social</span>
+          <div class="price">$6,800 <small>USD / pax</small></div>
+          <h3 class="display-s">Con acompañante</h3>
+          <ul>
+            <li>1 pase de acceso al evento</li>
+            <li>3 noches en habitación doble con vista</li>
+            <li>Cenas de apertura y cierre para 2 pax</li>
+            <li>Traslados y servicios del hotel para 2 pax</li>
+          </ul>
+          <p class="footnote">100% cubierto con BDF · Limited</p>
+        </article>
+
+        <article class="price-card sap reveal" data-delay="0.15">
+          <span class="chip">SAP Employee</span>
+          <div class="price">$3,000 <small>USD / pax</small></div>
+          <h3 class="display-s">Internal Pass</h3>
+          <ul>
+            <li>Cenas de apertura y cierre</li>
+            <li>Traslados privados con concierge</li>
+            <li>Servicios del hotel</li>
+            <li>(*) 3 noches abonadas por T&E</li>
+          </ul>
+          <p class="footnote">Tarifa exclusiva interna</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================
+       CHAPTER 19 — PATROCINIO
+       ======================================== -->
+  <section class="section sponsorship-intro" data-chapter="patrocinio" data-chapter-num="19">
+    <div class="content container">
+      <span class="eyebrow reveal">19 · Patrocinio</span>
+      <h2 class="display-l reveal" style="margin-top: 1.5rem;" data-delay="0.1">
+        Sponsorship & Oportunidades.
+      </h2>
+    </div>
+  </section>
+
+  <section class="section sponsorship">
+    <div class="content container">
+      <div class="sponsor-grid">
+        <article class="sponsor-card diamond reveal">
+          <header>
+            <span class="tier">Diamond</span>
+            <div class="invest">$65,000 <small>USD + tax</small></div>
+          </header>
+          <ul>
+            <li>Presencia gráfica online + offline</li>
+            <li>Presencia de marca en keynote</li>
+            <li>Participación en keynote</li>
+            <li>Sesión especial de contenido</li>
+            <li>Sesión de masterclass</li>
+            <li>Contenido especial y media</li>
+            <li>Lounge exclusivo · Meet the Sponsor</li>
+            <li>Base de datos y reporte comercial</li>
+            <li>Experiencias a medida</li>
+            <li>Presencia en closing dinner</li>
+            <li>Swag & giveaways (sponsor)</li>
+          </ul>
+        </article>
+
+        <article class="sponsor-card platinum reveal" data-delay="0.1">
+          <header>
+            <span class="tier">Platinum</span>
+            <div class="invest">$35,000 <small>USD + tax</small></div>
+          </header>
+          <ul>
+            <li>Presencia gráfica online + offline</li>
+            <li>Presencia de marca en keynote</li>
+            <li>Sesión de masterclass</li>
+            <li>Contenido especial y piezas para medios</li>
+            <li>Base de datos y reporte comercial</li>
+            <li>Experiencias a medida</li>
+            <li>Presencia en closing dinner</li>
+            <li>Swag & giveaways (sponsor)</li>
+          </ul>
+        </article>
+
+        <article class="sponsor-card gold reveal" data-delay="0.2">
+          <header>
+            <span class="tier">Gold</span>
+            <div class="invest">$15,000 <small>USD + tax</small></div>
+          </header>
+          <ul>
+            <li>Presencia gráfica online + offline</li>
+            <li>Presencia de marca en keynote</li>
+            <li>Base de datos y reporte comercial</li>
+            <li>Contenido especial y piezas para medios</li>
+            <li>Swag & giveaways (sponsor)</li>
+          </ul>
+        </article>
+
+        <article class="sponsor-card special reveal" data-delay="0.3">
+          <header>
+            <span class="tier">Special Activity</span>
+            <div class="invest">$15,000 <small>USD + tax</small></div>
+          </header>
+          <ul>
+            <li>Actividad de bienvenida en la llegada</li>
+            <li>Opening cocktail exclusivo</li>
+            <li>Activación de momentos especiales</li>
+            <li>Actividad de contenido</li>
+          </ul>
+          <p class="caption" style="margin-top: 1rem; color: var(--wine-gold);">Elegí una propuesta.</p>
+        </article>
+
+        <article class="sponsor-card participation reveal" data-delay="0.4">
+          <header>
+            <span class="tier">Participation</span>
+            <div class="invest">$6,000 <small>USD + tax</small></div>
+          </header>
+          <ul>
+            <li>Presencia gráfica online + offline</li>
+            <li>Presencia de marca en keynote</li>
+            <li>Swag & giveaways (sponsor)</li>
+          </ul>
+        </article>
+      </div>
+
+      <p class="footnote-large reveal">
+        El paquete de sponsorship no incluye el fee de admisión al evento. Si deseás asistir,
+        será necesario adquirir el acceso por separado. Este fee puede cubrirse hasta en un
+        100% con Development Funds disponibles, con tope de USD 10.000.
+      </p>
+    </div>
+  </section>
+
+  <!-- ========================================
+       CHAPTER 20 — CORE SERVICES
+       ======================================== -->
+  <section class="section core-intro" data-chapter="core services" data-chapter-num="20">
+    <div class="content container">
+      <span class="eyebrow reveal">20 · Core Services</span>
+      <h2 class="display-l reveal" style="margin-top: 1.5rem;" data-delay="0.1">
+        Llave en mano.
+      </h2>
+      <p class="lede reveal" data-delay="0.2" style="margin-top: 1rem; max-width: 60ch;">
+        Asumimos la responsabilidad integral de cada aspecto del proyecto: desde la concepción
+        inicial hasta la ejecución final. Nuestro equipo trabaja para que su visión se haga
+        realidad de la manera más exitosa.
+      </p>
+
+      <div class="services-grid">
+        <div class="svc reveal">
+          <h4 class="display-s" style="font-size: 1.3rem;">Equipo Dedicado</h4>
+          <ul>
+            <li>Project Manager</li>
+            <li>Productor General</li>
+            <li>Productor Técnico</li>
+            <li>Diseño, ambientación, AV</li>
+            <li>Responsable AA&BB</li>
+            <li>Storytelling, guión y contenido</li>
+            <li>Coordinador influencers / filmakers / PR</li>
+            <li>Coordinador armado y desarme</li>
+            <li>Host</li>
+            <li>Responsable administrativo</li>
+          </ul>
+        </div>
+        <div class="svc reveal" data-delay="0.1">
+          <h4 class="display-s" style="font-size: 1.3rem;">Stage Services</h4>
+          <ul>
+            <li>Ensayos previos para speakers, hosts e invitados</li>
+            <li>Stage Manager dedicado para coordinar todo el escenario</li>
+            <li>Speaker Room VIP con AA&BB exclusivos</li>
+            <li>Nivel técnico, visual y escénico SAP-grade</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SUCCESS STORY -->
+  <section class="section success">
+    <div class="content container">
+      <span class="eyebrow reveal">Our Success Story</span>
+      <h2 class="display-l reveal" style="margin-top: 1rem;" data-delay="0.1">
+        Cuatro años entregando el SAP Partner Summit.
+      </h2>
+      <p class="lede reveal" data-delay="0.2" style="margin-top: 1rem; max-width: 65ch;">
+        México · Brasil · Argentina · Colombia. Propuesta integral, idea creativa,
+        contenidos de agenda, show floor, sponsorship, ventas, gestión turística y producción
+        general durante 3 días de evento.
+      </p>
+
+      <div class="history-grid">
+        <div class="hist reveal">
+          <span class="hist-year">2022</span>
+          <strong>México</strong>
+          <span class="play-pill">▶ Video</span>
+        </div>
+        <div class="hist reveal" data-delay="0.1">
+          <span class="hist-year">2023</span>
+          <strong>Brasil</strong>
+          <span class="play-pill">▶ Video</span>
+        </div>
+        <div class="hist reveal" data-delay="0.2">
+          <span class="hist-year">2024</span>
+          <strong>Argentina</strong>
+          <span class="play-pill">▶ Video</span>
+        </div>
+        <div class="hist reveal" data-delay="0.3">
+          <span class="hist-year">2025</span>
+          <strong>Colombia</strong>
+          <span class="play-pill">▶ Video</span>
+        </div>
+        <div class="hist reveal next" data-delay="0.4">
+          <span class="hist-year">2026</span>
+          <strong>Mendoza</strong>
+          <span class="play-pill">El próximo capítulo</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================
+       CHAPTER 21 — CLOSING
+       ======================================== -->
+  <section class="section closing bg-sparkles" data-chapter="cierre" data-chapter-num="21">
+    <img src="/img/image68.webp" alt="" class="bg-cover" data-scale-in />
+    <div class="closing-overlay"></div>
+    <!-- SAP parallelogram stack — full width, teal/violet closing variant -->
+    <svg class="hero-geo" viewBox="0 0 1440 900" preserveAspectRatio="xMidYMid slice" aria-hidden="true">
+      <!-- Left stack — teal variant -->
+      <polygon points="0,0 500,0 300,900 0,900" fill="#002A86" opacity="0.6"/>
+      <polygon points="0,0 380,0 190,900 0,900" fill="#0070F2" opacity="0.4"/>
+      <polygon points="0,0 260,0 80,900 0,900" fill="#049F9A" opacity="0.25"/>
+      <line x1="500" y1="0" x2="300" y2="900" stroke="white" stroke-width="0.8" opacity="0.22"/>
+      <!-- Right stack — violet variant -->
+      <polygon points="1440,0 1440,900 940,900 1140,0" fill="#002A86" opacity="0.6"/>
+      <polygon points="1440,0 1440,900 1060,900 1260,0" fill="#5D36FF" opacity="0.4"/>
+      <polygon points="1440,0 1440,900 1180,900 1380,0" fill="#7858FF" opacity="0.25"/>
+      <line x1="1140" y1="0" x2="940" y2="900" stroke="white" stroke-width="0.8" opacity="0.22"/>
+    </svg>
+
+    <div class="content container-narrow" style="text-align:center;">
+      <span class="eyebrow reveal">SAP Partner Forum · Mendoza 2026</span>
+      <h2 class="display-xl reveal" style="margin-top: 2rem; line-height: 0.95;" data-delay="0.1">
+        Creemos juntos<br/>el <em class="italic-serif" style="background: linear-gradient(135deg, var(--wine-gold) 0%, var(--sap-magenta) 60%, #C040FF 100%); -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent;">Gran Blend</em><br/>de Latinoamérica.
+      </h2>
+      <p class="lede reveal" data-delay="0.3" style="margin-top: 3rem; margin-left: auto; margin-right: auto;">
+        25 al 28 de Agosto · Mendoza, Argentina
+      </p>
+      <div class="closing-brand reveal" data-delay="0.5">
+        <span>Designed by</span>
+        <strong>XONA</strong>
+      </div>
+    </div>
+  </section>
+
+</Layout>
+
+<style>
+  /* ===== GEOMETRIC SVG OVERLAYS — PPT style ===== */
+  .hero-geo,
+  .statement-geo {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    pointer-events: none;
+  }
+
+  /* ===== HERO ===== */
+  .hero {
+    min-height: 100vh;
+    overflow: hidden;
+  }
+  .hero-bg {
+    opacity: 0.55;
+    filter: saturate(1.15) contrast(1.05);
+  }
+  .hero-overlay {
+    position: absolute;
+    inset: 0;
+    background:
+      radial-gradient(ellipse 80% 60% at 20% 40%, rgba(0, 112, 242, 0.2) 0%, transparent 60%),
+      radial-gradient(ellipse 60% 50% at 80% 20%, rgba(232, 80, 138, 0.12) 0%, transparent 55%),
+      linear-gradient(180deg, rgba(0,20,74,0.3) 0%, rgba(2,19,75,0.55) 50%, rgba(0,20,74,0.97) 100%);
+    z-index: 1;
+  }
+  .hero .content {
+    display: grid;
+    grid-template-rows: 1fr auto;
+    min-height: calc(100vh - 8rem);
+  }
+  .hero-title {
+    margin-top: 2rem;
+    align-self: end;
+  }
+  .hero-footer {
+    margin-top: 3rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    gap: 3rem;
+    flex-wrap: wrap;
+  }
+  .hero-scroll {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    color: var(--muted-strong);
+    font-size: var(--caption);
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+  }
+  .scroll-arrow {
+    width: 1px;
+    height: 3rem;
+    background: linear-gradient(180deg, transparent, var(--wine-gold));
+    animation: scrollPulse 2s ease-in-out infinite;
+  }
+  @keyframes scrollPulse {
+    0%, 100% { transform: scaleY(1); opacity: 1; }
+    50% { transform: scaleY(0.6); opacity: 0.5; }
+  }
+
+  /* ===== TEASER VIDEO CARD ===== */
+  .video-card {
+    border: 1px solid var(--line);
+    overflow: hidden;
+    aspect-ratio: 16/10;
+    position: relative;
+    cursor: pointer;
+    transition: transform 0.4s var(--ease-out);
+  }
+  .video-card:hover { transform: scale(1.01); }
+  .video-poster {
+    position: relative;
+    width: 100%;
+    height: 100%;
+  }
+  .video-poster img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(0.55) saturate(1.2);
+  }
+  .play-btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    background: var(--wine-gold);
+    color: var(--ink);
+    display: grid;
+    place-items: center;
+    transition: transform 0.3s, background 0.3s;
+  }
+  .play-btn svg { width: 2rem; height: 2rem; margin-left: 4px; }
+  .video-card:hover .play-btn { transform: translate(-50%, -50%) scale(1.1); background: var(--sap-magenta); color: var(--paper); }
+  .video-meta {
+    position: absolute;
+    bottom: 1.5rem;
+    left: 1.5rem;
+    color: var(--paper);
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+  }
+  .video-meta span { font-size: var(--micro); letter-spacing: 0.2em; text-transform: uppercase; color: var(--wine-gold); }
+  .video-meta strong { font-family: 'Fraunces', serif; font-weight: 300; font-size: 1.25rem; }
+
+  /* ===== FEATURE CARDS ===== */
+  .feature-card {
+    padding: 2.5rem;
+    border: 1px solid var(--line);
+    background: linear-gradient(180deg, rgba(244,236,216,0.03), rgba(244,236,216,0.005));
+    height: 100%;
+  }
+  .feature-list {
+    list-style: none;
+    margin-top: 1.5rem;
+  }
+  .feature-list li {
+    padding: 0.6rem 0;
+    border-top: 1px solid var(--line);
+    color: var(--muted-strong);
+    font-size: 0.95rem;
+  }
+  .feature-list li:last-child { border-bottom: 1px solid var(--line); }
+
+  .kpi-row {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    margin-top: 1.5rem;
+  }
+  .kpi-row > div {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+    padding: 1rem 0;
+    border-top: 1px solid var(--line);
+  }
+  .kpi-row .big {
+    font-family: 'Fraunces', serif;
+    font-size: 2rem;
+    font-weight: 200;
+    color: var(--wine-gold);
+  }
+  .kpi-row span:last-child {
+    font-size: var(--caption);
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--muted);
+  }
+
+  /* ===== TIMELINE ===== */
+  .timeline-grid {
+    display: grid;
+    grid-template-columns: 80px 1fr;
+    margin-top: 4rem;
+    column-gap: 2rem;
+    row-gap: 1rem;
+    align-items: start;
+  }
+  .tl-month {
+    font-family: 'Fraunces', serif;
+    font-size: 2.5rem;
+    font-weight: 200;
+    color: var(--wine-gold);
+    line-height: 1;
+    grid-column: 1;
+    align-self: start;
+    position: sticky;
+    top: 8rem;
+  }
+  .tl-step {
+    grid-column: 2;
+    padding: 1.25rem 0;
+    border-top: 1px solid var(--line);
+    display: grid;
+    grid-template-columns: 100px 200px 1fr;
+    gap: 1.5rem;
+    align-items: baseline;
+  }
+  .tl-step:last-child { border-bottom: 1px solid var(--line); }
+  .tl-date {
+    font-size: var(--caption);
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    color: var(--wine-gold);
+  }
+  .tl-step strong {
+    font-family: 'Fraunces', serif;
+    font-weight: 400;
+    font-size: 1.15rem;
+    color: var(--paper);
+  }
+  .tl-step p {
+    color: var(--muted);
+    font-size: 0.95rem;
+  }
+  .tl-step.closing strong { color: var(--wine-gold); font-style: italic; }
+
+  /* ===== MAP ===== */
+  .map-wrap {
+    margin-top: 4rem;
+    border: 1px solid var(--line);
+    overflow: hidden;
+    aspect-ratio: 16/9;
+  }
+  .map-wrap img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  /* ===== HORIZONTAL SCROLL CARDS ===== */
+  .h-scroll-section { overflow: hidden; padding: 0; min-height: 100vh; }
+  .arrival-card {
+    width: min(90vw, 1100px);
+    height: 80vh;
+    display: grid;
+    grid-template-columns: 1.2fr 1fr;
+    border: 1px solid var(--line);
+    background: rgba(10, 10, 15, 0.6);
+    overflow: hidden;
+  }
+  .arrival-media {
+    position: relative;
+    overflow: hidden;
+  }
+  .arrival-media img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .arrival-body {
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    overflow-y: auto;
+  }
+  .arrival-body h3 { margin-top: 1rem; }
+  .arrival-body p { margin-top: 1rem; }
+  .kit-list, .kit-detail {
+    list-style: none;
+    margin-top: 1.5rem;
+  }
+  .kit-list li {
+    padding: 0.5rem 0;
+    border-top: 1px solid var(--line);
+    color: var(--muted-strong);
+    font-size: 0.95rem;
+  }
+  .kit-list li:last-child { border-bottom: 1px solid var(--line); }
+  .kit-detail li {
+    padding: 1rem 0;
+    border-top: 1px solid var(--line);
+  }
+  .kit-detail li:last-child { border-bottom: 1px solid var(--line); }
+  .kit-detail strong {
+    font-family: 'Fraunces', serif;
+    font-weight: 400;
+    color: var(--wine-gold);
+    display: block;
+    margin-bottom: 0.25rem;
+  }
+  .kit-detail p { color: var(--muted-strong); font-size: 0.95rem; }
+
+  @media (max-width: 900px) {
+    .arrival-card { grid-template-columns: 1fr; height: auto; min-height: 80vh; }
+    .arrival-media { aspect-ratio: 4/3; }
+  }
+
+  /* ===== OPTIONS A/B ===== */
+  .option-card {
+    border: 1px solid var(--line);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    transition: border-color 0.4s, transform 0.4s;
+  }
+  .option-card:hover {
+    border-color: var(--wine-gold);
+    transform: translateY(-4px);
+  }
+  .option-img {
+    aspect-ratio: 16/10;
+    overflow: hidden;
+  }
+  .option-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .option-body {
+    padding: 2.5rem;
+  }
+
+  /* ===== VENUE GRID ===== */
+  .venue-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2.5rem;
+    margin-top: 3rem;
+  }
+  .venue-side {
+    border: 1px solid var(--line);
+    padding: 2rem;
+  }
+  .venue-side ul {
+    list-style: none;
+    margin-top: 1.5rem;
+  }
+  .venue-side li {
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    gap: 1rem;
+    padding: 1rem 0;
+    border-top: 1px solid var(--line);
+    align-items: baseline;
+  }
+  .venue-side li:last-child { border-bottom: 1px solid var(--line); }
+  .venue-side li span {
+    font-size: var(--caption);
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--muted);
+  }
+  .venue-side li strong {
+    font-family: 'Fraunces', serif;
+    font-weight: 400;
+    color: var(--paper);
+  }
+  @media (max-width: 900px) { .venue-grid { grid-template-columns: 1fr; } }
+
+  /* ===== GALLERY ===== */
+  .gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0.75rem;
+    margin-top: 3rem;
+  }
+  .gallery-grid figure, .gallery-grid img {
+    margin: 0;
+    overflow: hidden;
+    aspect-ratio: 4/5;
+  }
+  .gallery-grid img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.6s var(--ease-out);
+  }
+  .gallery-grid figure:hover img { transform: scale(1.04); }
+  .arizu-grid {
+    grid-template-columns: 1fr 1fr;
+    margin-top: 0;
+  }
+  @media (max-width: 700px) {
+    .gallery-grid { grid-template-columns: 1fr 1fr; }
+  }
+
+  /* ===== DIFFS ===== */
+  .diff-list { margin-top: 2rem; }
+  .diff {
+    padding: 1.5rem 0;
+    border-top: 1px solid var(--line);
+    display: grid;
+    grid-template-columns: 60px 1fr;
+    gap: 1.5rem;
+    align-items: start;
+  }
+  .diff:last-child { border-bottom: 1px solid var(--line); }
+  .diff-num {
+    font-family: 'Fraunces', serif;
+    font-size: 2rem;
+    font-weight: 200;
+    color: var(--wine-gold);
+    line-height: 1;
+  }
+  .diff strong {
+    font-family: 'Fraunces', serif;
+    font-weight: 400;
+    font-size: 1.15rem;
+    color: var(--paper);
+    display: block;
+    margin-bottom: 0.5rem;
+  }
+  .diff p { color: var(--muted-strong); }
+
+  .bullet-elegant {
+    list-style: none;
+    margin-top: 1.5rem;
+  }
+  .bullet-elegant li {
+    padding: 1rem 0;
+    border-top: 1px solid var(--line);
+    color: var(--muted-strong);
+  }
+  .bullet-elegant li:last-child { border-bottom: 1px solid var(--line); }
+  .bullet-elegant strong {
+    font-family: 'Fraunces', serif;
+    font-weight: 400;
+    color: var(--wine-gold);
+  }
+
+  /* ===== AGENDA AT A GLANCE ===== */
+  .agenda-glance {
+    margin-top: 4rem;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1.5rem;
+  }
+  .ag-day {
+    border: 1px solid var(--line);
+    padding: 2rem 1.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    transition: border-color 0.4s, background 0.4s;
+  }
+  .ag-day:hover {
+    border-color: var(--wine-gold);
+    background: rgba(200, 146, 58, 0.04);
+  }
+  .ag-num {
+    font-family: 'Fraunces', serif;
+    font-size: 4rem;
+    font-weight: 200;
+    color: var(--wine-gold);
+    line-height: 0.9;
+  }
+  .ag-day strong {
+    font-family: 'Fraunces', serif;
+    font-weight: 400;
+    font-size: 1.4rem;
+    color: var(--paper);
+  }
+  .ag-day p { color: var(--muted); font-size: 0.9rem; }
+
+  @media (max-width: 900px) {
+    .agenda-glance { grid-template-columns: 1fr 1fr; }
+  }
+
+  /* ===== DAY CARDS ===== */
+  .day-0-grid article {
+    border: 1px solid var(--line);
+    overflow: hidden;
+  }
+  .day-0-grid img {
+    width: 100%;
+    aspect-ratio: 16/10;
+    object-fit: cover;
+  }
+  .day-card-body { padding: 2rem; }
+  .day-card-body h3 { margin-top: 0.75rem; }
+  .day-card-body p { margin-top: 1rem; color: var(--muted-strong); }
+
+  /* ===== MASTERCLASSES ===== */
+  .mc-card {
+    padding: 2.5rem 2rem;
+    border: 1px solid var(--line);
+    transition: border-color 0.4s, background 0.4s;
+  }
+  .mc-card:hover {
+    border-color: var(--wine-gold);
+    background: rgba(200, 146, 58, 0.03);
+  }
+  .mc-day {
+    font-size: var(--caption);
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    color: var(--wine-gold);
+    display: block;
+    margin-bottom: 1rem;
+  }
+  .mc-card h3 { margin-bottom: 1rem; }
+  .mc-card p { color: var(--muted-strong); }
+
+  /* ===== GAMIFICATION ===== */
+  .game-steps { margin-top: 2rem; }
+  .game-step {
+    padding: 1.5rem 0;
+    border-top: 1px solid var(--line);
+    display: grid;
+    grid-template-columns: 60px 1fr;
+    gap: 1.5rem;
+    align-items: start;
+  }
+  .game-step:last-child { border-bottom: 1px solid var(--line); }
+  .game-icon {
+    font-size: 1.8rem;
+    color: var(--wine-gold);
+    line-height: 1;
+  }
+  .game-step strong {
+    font-family: 'Fraunces', serif;
+    font-weight: 400;
+    font-size: 1.15rem;
+    color: var(--paper);
+    display: block;
+    margin-bottom: 0.5rem;
+  }
+  .game-step p { color: var(--muted-strong); }
+
+  /* ===== APP / AVATAR EVOLUTION ===== */
+  .app-side {
+    padding: 2rem;
+    border: 1px solid var(--line);
+  }
+  .avatar-evolution { margin-top: 5rem; }
+  .avatar-track {
+    margin-top: 2rem;
+    display: grid;
+    grid-template-columns: 1fr 40px 1fr 40px 1fr 40px 1fr;
+    gap: 1rem;
+    align-items: center;
+  }
+  .avatar-stage {
+    padding: 1.5rem;
+    border: 1px solid var(--line);
+    text-align: center;
+    background: rgba(244, 236, 216, 0.02);
+  }
+  .avatar-stage.final {
+    border-color: var(--wine-gold);
+    background: rgba(200, 146, 58, 0.06);
+  }
+  .avatar-stage span {
+    font-size: 2.5rem;
+    display: block;
+    margin-bottom: 0.5rem;
+    color: var(--wine-gold);
+    line-height: 1;
+  }
+  .avatar-stage strong {
+    font-family: 'Fraunces', serif;
+    font-weight: 400;
+    color: var(--paper);
+    font-size: 0.95rem;
+  }
+  .avatar-line {
+    height: 1px;
+    background: linear-gradient(90deg, var(--wine-gold), transparent);
+  }
+  @media (max-width: 900px) {
+    .avatar-track { grid-template-columns: 1fr 1fr; gap: 0.5rem; }
+    .avatar-line { display: none; }
+  }
+
+  /* ===== SHOW CARDS ===== */
+  .show-card {
+    border: 1px solid var(--line);
+    overflow: hidden;
+  }
+  .show-card img {
+    width: 100%;
+    aspect-ratio: 1;
+    object-fit: cover;
+  }
+  .show-card h3, .show-card p {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+  .show-card h3 { margin-top: 1.5rem; }
+  .show-card p { margin-top: 0.5rem; margin-bottom: 1.5rem; color: var(--muted-strong); }
+
+  /* ===== PRICING ===== */
+  .pricing-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.25rem;
+    margin-top: 3rem;
+  }
+  .price-card {
+    padding: 2.5rem 2rem;
+    border: 1px solid var(--line);
+    background: linear-gradient(180deg, rgba(244,236,216,0.03), transparent);
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    transition: border-color 0.4s, transform 0.4s;
+  }
+  .price-card:hover { border-color: var(--wine-gold); transform: translateY(-3px); }
+  .price-card.featured {
+    border-color: var(--wine-gold);
+    background: linear-gradient(180deg, rgba(200,146,58,0.1), rgba(244,236,216,0.02));
+  }
+  .price-card.sap {
+    border-color: var(--sap-magenta);
+    background: linear-gradient(180deg, rgba(232,80,138,0.08), rgba(244,236,216,0.02));
+  }
+  .price {
+    font-family: 'Fraunces', serif;
+    font-size: 2.5rem;
+    font-weight: 200;
+    color: var(--paper);
+    line-height: 1;
+  }
+  .price small {
+    display: block;
+    font-size: 0.85rem;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin-top: 0.5rem;
+    font-weight: 400;
+  }
+  .price-card ul {
+    list-style: none;
+    flex: 1;
+  }
+  .price-card ul li {
+    padding: 0.6rem 0;
+    border-top: 1px solid var(--line);
+    color: var(--muted-strong);
+    font-size: 0.9rem;
+  }
+  .price-card ul li:last-child { border-bottom: 1px solid var(--line); }
+  .footnote {
+    font-size: var(--micro);
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin-top: auto;
+  }
+  @media (max-width: 1100px) {
+    .pricing-grid { grid-template-columns: 1fr 1fr; }
+  }
+  @media (max-width: 700px) {
+    .pricing-grid { grid-template-columns: 1fr; }
+  }
+
+  /* ===== SPONSORSHIP ===== */
+  .sponsor-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.25rem;
+    margin-top: 3rem;
+  }
+  .sponsor-card {
+    padding: 2rem;
+    border: 1px solid var(--line);
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    transition: transform 0.4s, border-color 0.4s;
+  }
+  .sponsor-card:hover { transform: translateY(-3px); }
+  .sponsor-card.diamond {
+    border-color: var(--sap-magenta);
+    background: linear-gradient(180deg, rgba(232,80,138,0.06), transparent);
+  }
+  .sponsor-card.platinum {
+    border-color: var(--sap-violet);
+    background: linear-gradient(180deg, rgba(139,95,191,0.06), transparent);
+  }
+  .sponsor-card.gold {
+    border-color: var(--wine-gold);
+    background: linear-gradient(180deg, rgba(200,146,58,0.06), transparent);
+  }
+  .sponsor-card.special {
+    border-color: var(--wine-rust);
+    background: linear-gradient(180deg, rgba(180,84,52,0.06), transparent);
+  }
+  .sponsor-card header {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    padding-bottom: 1.5rem;
+    border-bottom: 1px solid var(--line);
+  }
+  .tier {
+    font-family: 'Fraunces', serif;
+    font-weight: 300;
+    font-size: 2rem;
+    color: var(--paper);
+  }
+  .invest {
+    font-family: 'Fraunces', serif;
+    font-size: 1.5rem;
+    font-weight: 200;
+    color: var(--wine-gold);
+  }
+  .invest small {
+    font-size: 0.75rem;
+    letter-spacing: 0.14em;
+    color: var(--muted);
+    font-family: 'Inter', sans-serif;
+    text-transform: uppercase;
+    margin-left: 0.5rem;
+  }
+  .sponsor-card ul {
+    list-style: none;
+  }
+  .sponsor-card ul li {
+    padding: 0.5rem 0;
+    color: var(--muted-strong);
+    font-size: 0.9rem;
+    padding-left: 1.25rem;
+    position: relative;
+  }
+  .sponsor-card ul li::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0.85rem;
+    width: 6px;
+    height: 1px;
+    background: var(--wine-gold);
+  }
+  .footnote-large {
+    margin-top: 3rem;
+    padding: 1.5rem;
+    border: 1px solid var(--line);
+    font-size: 0.9rem;
+    color: var(--muted-strong);
+    background: rgba(244, 236, 216, 0.02);
+  }
+  @media (max-width: 1100px) {
+    .sponsor-grid { grid-template-columns: 1fr 1fr; }
+  }
+  @media (max-width: 700px) {
+    .sponsor-grid { grid-template-columns: 1fr; }
+  }
+
+  /* ===== SERVICES ===== */
+  .services-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2.5rem;
+    margin-top: 4rem;
+  }
+  .svc {
+    padding: 2.5rem;
+    border: 1px solid var(--line);
+  }
+  .svc ul {
+    list-style: none;
+    margin-top: 1.5rem;
+  }
+  .svc ul li {
+    padding: 0.6rem 0;
+    border-top: 1px solid var(--line);
+    color: var(--muted-strong);
+    font-size: 0.95rem;
+  }
+  .svc ul li:last-child { border-bottom: 1px solid var(--line); }
+  @media (max-width: 900px) { .services-grid { grid-template-columns: 1fr; } }
+
+  /* ===== HISTORY ===== */
+  .history-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 1rem;
+    margin-top: 4rem;
+  }
+  .hist {
+    padding: 2rem 1.5rem;
+    border: 1px solid var(--line);
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    transition: border-color 0.4s, transform 0.3s;
+    cursor: pointer;
+  }
+  .hist:hover { border-color: var(--wine-gold); transform: translateY(-3px); }
+  .hist-year {
+    font-family: 'Fraunces', serif;
+    font-size: 2.25rem;
+    font-weight: 200;
+    color: var(--wine-gold);
+    line-height: 1;
+  }
+  .hist strong {
+    font-family: 'Fraunces', serif;
+    font-weight: 400;
+    color: var(--paper);
+    font-size: 1.1rem;
+  }
+  .play-pill {
+    font-size: var(--caption);
+    letter-spacing: 0.1em;
+    color: var(--muted);
+    margin-top: auto;
+  }
+  .hist.next {
+    border-color: var(--sap-magenta);
+    background: linear-gradient(180deg, rgba(232,80,138,0.1), transparent);
+  }
+  .hist.next .play-pill { color: var(--sap-magenta); }
+  .hist.next .hist-year { color: var(--sap-magenta); }
+  @media (max-width: 900px) { .history-grid { grid-template-columns: 1fr 1fr; } }
+
+  /* ===== CLOSING ===== */
+  .closing {
+    min-height: 100vh;
+  }
+  .closing-overlay {
+    position: absolute;
+    inset: 0;
+    background:
+      radial-gradient(ellipse at center, transparent 0%, rgba(10,10,15,0.7) 70%),
+      linear-gradient(180deg, rgba(10,10,15,0.6), rgba(10,10,15,0.95));
+    z-index: 1;
+  }
+  .closing .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 100vh;
+  }
+  .closing-brand {
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    align-items: center;
+    color: var(--muted);
+  }
+  .closing-brand span {
+    font-size: var(--caption);
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+  }
+  .closing-brand strong {
+    font-family: 'Fraunces', serif;
+    font-weight: 300;
+    font-size: 2rem;
+    color: var(--paper);
+    letter-spacing: 0.1em;
+  }
+
+  /* ===== RESPONSIVE TWEAKS ===== */
+  @media (max-width: 700px) {
+    .tl-step { grid-template-columns: 1fr; gap: 0.5rem; }
+    .tl-month { font-size: 1.5rem; position: static; }
+    .timeline-grid { grid-template-columns: 1fr; }
+  }
+</style>
